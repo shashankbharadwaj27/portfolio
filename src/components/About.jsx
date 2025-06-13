@@ -41,7 +41,7 @@ export default function About() {
           <span>💻</span> About
         </h2>
         <a
-          href="https://www.linkedin.com/in/saishashank-pemmaraju-426b37293/"
+          href="https://www.linkedin.com/in/saishashank-pemmaraju/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm font-medium text-gray-300 hover:underline"
