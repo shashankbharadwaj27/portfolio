@@ -34,7 +34,7 @@ export default function Hero() {
             <FaGithub className="hover:text-gray-600" />
           </a>
           <a
-            href="https://www.linkedin.com/in/saishashank-pemmaraju-426b37293/"
+            href="https://www.linkedin.com/in/saishashank-pemmaraju/"
             target="_blank"
             rel="noopener noreferrer"
           >
