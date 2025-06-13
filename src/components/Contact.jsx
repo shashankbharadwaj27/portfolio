@@ -23,7 +23,7 @@ export default function Contact() {
           </p>
           <button
             onClick={() =>
-              (window.location.href = "mailto:saishashankpemmaraju@gmail.com")
+              (window.location.href = "mailto:shashankbharadwaj2703@gmail.com")
             }
             className="cursor-pointer font-semibold bg-white hover:bg-cyan-600 text-black px-6 py-3 rounded-lg transition duration-300"
           >
