@@ -9,7 +9,7 @@ export default function GlowingBackground() {
     const context = canvas.getContext("2d");
     if (!context) return;
 
-    import("./starfieldEngine").then(({ init }) => init(canvas, context));
+    import("./starFieldEngine").then(({ init }) => init(canvas, context));
   }, []);
 
   return <canvas id="stars" className="-z-50" width={window.innerWidth} height={window.innerHeight}></canvas>;
