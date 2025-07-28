@@ -6,6 +6,9 @@ import About from "./components/About";
 import FadeInSection from "./components/FadeInSection";
 import Contact from "./components/Contact";
 import GlowingBackground from "./components/GlowingBackground";
+import Astronaut from "./components/Astronaut";
+import Skills from "./components/Skills";
+import Certifications from "./components/Certifications";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -36,9 +39,12 @@ export default function App() {
       <div className="z-50 relative">
         <Navbar activeSection={activeSection} />
         <FadeInSection><Hero /></FadeInSection>
-        <FadeInSection><Projects /></FadeInSection>
         <FadeInSection><About /></FadeInSection>
+        <FadeInSection><Projects /></FadeInSection>
+        <FadeInSection><Skills /></FadeInSection>
+        <FadeInSection><Certifications /></FadeInSection>
         <FadeInSection><Contact/></FadeInSection>
+        <Astronaut section={activeSection} setActiveSection />
       </div>
     </main>
   );

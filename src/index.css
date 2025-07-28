@@ -9,3 +9,39 @@
   background: #ffffff !important; 
 }
 
+.nav-buttons::after {
+  content: '';
+  position: absolute;
+  border: 1px solid #00ffff44;
+  border-radius: 50%;
+  width: 150%;
+  height: 150%;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+.nav-buttons:hover::after {
+  transform: scale(1.1);
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+.animate-bounce-slow {
+  animation: bounce-slow 6s ease-in-out infinite;
+}

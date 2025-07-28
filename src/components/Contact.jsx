@@ -2,9 +2,9 @@ import telephone from "../assets/telephone.jpg";
 
 export default function Contact() {
   return (
-    <section id="contact" className="z-50 px-6 py-20 max-w-6xl mx-auto">
+    <section id="contact" className="z-50 px-6 py-20 min-h-screen max-w-6xl top-0 mx-auto">
       <div className="border-b border-gray-300 mb-8">
-        <h2 className="text-3xl font-bold">📬 Contact</h2>
+        <h2 className="text-3xl text-center mb-2 font-bold">📡 Comm Station</h2>
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] border border-white/20 p-4 flex-1 text-center md:text-left">
