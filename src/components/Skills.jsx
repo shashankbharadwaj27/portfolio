@@ -33,10 +33,10 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative z-50 px-6 py-20 max-w-7xl mx-auto"
+      className="relative z-50 px-6 py-20 max-w-5xl mx-auto"
     >
       <div className="border-b border-gray-200 w-full mb-10">
-        <h2 className="text-3xl font-bold text-white pb-2 text-center">
+        <h2 className="text-2xl font-bold text-white pb-2 text-center">
           	🧰 Skill Arsenal
         </h2>
       </div>

@@ -29,20 +29,20 @@ const projectList = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="z-50 px-6 py-20 max-w-6xl mx-auto">
+    <section id="projects" className="z-50 px-6 py-20 max-w-5xl mx-auto">
       <div className="border-b border-gray-200 w-full mb-10">
-        <h2 className="text-3xl text-center pb-2 font-bold">🛠️ Engineering Deck</h2>
+        <h2 className="text-2xl text-center pb-2 font-bold">🛠️ Engineering Deck</h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {projectList.map((project, index) => (
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} glareEnable={true} glareColor="cyan">
             <div
               key={index}
-              className="bg-white/10 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-md rounded-[10px] border border-white/20 p-6 flex flex-col justify-between"
+              className="bg-white/10 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-md rounded-[10px] border border-white/20 p-6 flex flex-col justify-between max-h-lg"
             >
               <div>
-                <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-gray-300 mb-4">{project.description}</p>
                 <a
                   href={project.link}

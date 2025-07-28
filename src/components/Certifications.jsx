@@ -28,10 +28,10 @@ export default function Certifications() {
   return (
     <section
       id="certifications"
-      className="z-50 px-6 py-20 max-w-6xl mx-auto relative"
+      className="z-50 px-6 py-20 max-w-5xl mx-auto relative"
     >
       <div className="border-b border-gray-200 w-full mb-10">
-        <h2 className="text-3xl text-center pb-2 font-bold">📜 Mission Badges: Certified Competencies</h2>
+        <h2 className="text-2xl text-center pb-2 font-bold">📜 Mission Badges: Certified Competencies</h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -40,8 +40,8 @@ export default function Certifications() {
             key={index}
             className="bg-white/10 border border-white/20 backdrop-blur-md rounded-2xl p-5 shadow-md hover:shadow-cyan-500/30 transition-all duration-300"
           >
-            <div className="h-3xl min-h-80 flex items-center">
-              <img src={cert.logo} alt="" />
+            <div className="h-2xl min-h-72 flex items-center">
+              <img className="w-xl" src={cert.logo} alt="" />
             </div>
             <div className="flex items-center gap-3 text-white mb-2">
               <h3 className="font-semibold text-base">{cert.title}</h3>

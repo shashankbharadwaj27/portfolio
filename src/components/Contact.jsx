@@ -2,13 +2,13 @@ import telephone from "../assets/telephone.jpg";
 
 export default function Contact() {
   return (
-    <section id="contact" className="z-50 px-6 py-20 min-h-screen max-w-6xl top-0 mx-auto">
+    <section id="contact" className="z-50 px-6 py-20 min-h-screen max-w-5xl top-0 mx-auto">
       <div className="border-b border-gray-300 mb-8">
-        <h2 className="text-3xl text-center mb-2 font-bold">📡 Comm Station</h2>
+        <h2 className="text-2xl text-center mb-2 font-bold">📡 Comm Station</h2>
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] border border-white/20 p-4 flex-1 text-center md:text-left">
-          <p className="py-5 text-lg text-gray-300">
+          <p className="py-5 text-md text-gray-300">
             Are you interested in collaborating or want to connect or chat? If
             so, hit the contact button down below or&nbsp;
             <a

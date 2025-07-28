@@ -16,7 +16,7 @@ export default function Sidebar({ activeSection, setActiveSection }) {
   };
 
   const linkClasses = (id) =>
-    `group relative flex items-center justify-center w-12 h-12 rounded-full transition-all duration-300
+    `group relative flex items-center justify-center w-8 h-8 rounded-full transition-all duration-300
      ${
        activeSection === id
          ? "bg-cyan-400 text-black shadow-[0_0_20px_#06b6d4]"

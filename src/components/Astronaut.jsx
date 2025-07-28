@@ -34,9 +34,9 @@ export default function Astronaut({ section, setActiveSection }) {
 
   return (
     <div className="fixed bottom-10 right-10 z-50 flex items-end space-x-2 animate-float">
-      <img src={astronaut_img} alt="Astronaut" className="w-32 h-32" />
-      <div className="bg-white/10 backdrop-blur-md text-white text-lg px-4 py-3 rounded-xl border border-white/20 max-w-xs shadow-md">
-        <p>{messages[section]}</p>
+      <img src={astronaut_img} alt="Astronaut" className="w-24 h-24" />
+      <div className="bg-white/10 backdrop-blur-md text-white text-lg px-4 py-3 rounded-xl border border-white/20 max-w-2xs shadow-md">
+        <p className='text-sm'>{messages[section]}</p>
         {nextSection && (
           <button
             onClick={handleNext}

@@ -9,7 +9,7 @@ export default function Hero() {
       className="min-h-screen flex flex-col-reverse md:flex-row justify-center items-center px-2 pt-28 md:pt-32 gap-10 md:gap-20"
     >
       <div className="max-w-6xl text-center md:text-left">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <h2 className="text-4xl md:text-4xl font-bold mb-4">
           <span className="text-cyan-400">
             <Typewriter
               words={['👋 Hello, I am Shashank Bharadwaj']}
@@ -22,7 +22,7 @@ export default function Hero() {
             />
           </span>
         </h2>
-        <p className="text-xl mb-2 text-center text-gray-300" >MERN Stack developer | Machine Learning Practitioner</p>
+        <p className="text-lg mb-2 text-center text-gray-300" >MERN Stack developer | Machine Learning Practitioner</p>
         <p className="text-lg text-center text-gray-300">
           Fuelled by curiosity, driven by code.
         </p>

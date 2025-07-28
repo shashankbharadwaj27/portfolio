@@ -26,10 +26,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen px-6 py-20 max-w-7xl mx-auto flex flex-col justify-center"
+      className="min-h-screen px-6 py-20 max-w-5xl mx-auto flex flex-col justify-center"
     >
       <div className="border-b border-gray-200 w-full mb-10">
-        <h2 className="text-3xl font-bold text-white pb-2 text-center">
+        <h2 className="text-2xl font-bold text-white pb-2 text-center">
           🧑🏻‍🚀 Mission Log
         </h2>
       </div>
