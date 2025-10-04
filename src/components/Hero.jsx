@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Typewriter } from 'react-simple-typewriter';
-import resume from '../assets/Shashank_Resume_compressed.pdf';
+import resume from '../assets/Shashank_Resume.pdf';
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
         <h2 className="text-xl text-center sm:text-3xl md:text-4xl font-bold mb-4 whitespace-nowrap overflow-hidden text-ellipsis">
           <span className="text-cyan-400 inline-block">
             <Typewriter
-              words={['👋 Hello, I am Shashank Bharadwaj']}
+              words={['👋 Hello, I am Saishashank Pemmaraju']}
               loop={3}
               cursor
               cursorStyle="_"
