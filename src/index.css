@@ -46,3 +46,10 @@
 .animate-bounce-slow {
   animation: bounce-slow 6s ease-in-out infinite;
 }
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}

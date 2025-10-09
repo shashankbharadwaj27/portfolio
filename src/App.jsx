@@ -9,9 +9,36 @@ import GlowingBackground from "./components/GlowingBackground";
 import Astronaut from "./components/Astronaut";
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
+import Lenis from 'lenis'
 
 export default function App() {
   const [activeSection, setActiveSection] = useState("home");
+
+    useEffect(() => {
+    // 🔥 Initialize Lenis
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smooth: true,
+    });
+
+    // Request animation frame loop
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    // Optional: Sync Lenis scroll with IntersectionObserver
+    lenis.on("scroll", () => {
+      // If you want to trigger something on scroll
+    });
+
+    return () => {
+      lenis.destroy();
+    };
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
